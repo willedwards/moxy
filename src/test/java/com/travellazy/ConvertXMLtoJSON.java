@@ -19,6 +19,7 @@ public class ConvertXMLtoJSON {
         InputStream is = ConvertXMLtoJSON.class.getResourceAsStream("/sample-test.xml");
         String xml = IOUtils.toString(is);
 
+
         XMLSerializer xmlSerializer = new XMLSerializer();
         JSON json = xmlSerializer.read( xml );
         System.out.println( json.toString(2) );

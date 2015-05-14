@@ -1,4 +1,11 @@
-@XmlSchema(xmlns = {@XmlNs(prefix = "", namespaceURI = "urn:iso:std:iso:20022:tech:xsd:pacs.008.001.01")}) package com.travellazy;
+@XmlSchema(
+        xmlns = {
+                @XmlNs(prefix = "",
+                        namespaceURI = "urn:iso:std:iso:20022:tech:xsd:pacs.008.001.01")
+        }
+)
+@XmlAccessorType(XmlAccessType.FIELD)
+package com.travellazy;
 
 //@XmlSchema(
 //        namespace="http://earth.google.com/kml/2.0",
@@ -10,6 +17,8 @@
 //)
 //@XmlAccessorType(XmlAccessType.FIELD)
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlNs;
 import javax.xml.bind.annotation.XmlSchema;
 

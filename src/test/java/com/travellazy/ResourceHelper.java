@@ -17,7 +17,11 @@ public class ResourceHelper {
         String raw = IOUtils.toString(classLoader.getResourceAsStream(fileName));
 
         return raw.replaceAll("\n","").replaceAll("\\s","");
+    }
 
+    public static String getFileContentWithWhiteSpace(String fileName) throws IOException{
+        ClassLoader classLoader = ResourceHelper.class.getClassLoader();
+        return IOUtils.toString(classLoader.getResourceAsStream(fileName));
     }
 
     public static File getFile(String filename){
