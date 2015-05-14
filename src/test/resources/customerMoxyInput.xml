@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customer>
+    <id>123</id>
+    <firstName>Jane</firstName>
+    <lastName xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    <phoneNumbers type="work">555-1111</phoneNumbers>
+</customer>
