@@ -1,0 +1,24 @@
+{
+  "customerSearchResults": {
+    "xmlns": "http://www.travellazy.com/product/model",
+    "page": "1",
+    "pageSize": "50",
+    "totalNumberOfPages": "1",
+    "totalNumberOfEntries": "1",
+    "customerSearchResult": {
+      "customerId": "1182896512",
+      "customerTitleKey": "MR",
+      "firstName": "William",
+      "lastName": "Edwards",
+      "middleName": "G",
+      "accountStatusKey": "NEW",
+      "address": {
+        "city": "London",
+        "zipCode": "SE1 3XC",
+        "streetName": "Great Swinley",
+        "countryKey": "UK",
+        "streetNumber1": "2"
+      }
+    }
+  }
+}

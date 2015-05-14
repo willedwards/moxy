@@ -1,11 +1,15 @@
-Need
+You need to get the unit tests to pass.
 
-Front request to backend
+I dont mind what you use so long as
 
-json -> xml
-josn -> java -> xml
+1) There are no memory leaks
+2) It's simple / elegant
 
-Response
-xml -> json
-xml -> java -> json.
+The candidates I've shortlisted are:
+
+JAXB
+xstream
+json-lib
+
+
 

@@ -1,4 +1,8 @@
-<customerSearchResults xmlns="http://www.infonova.com/product/model" page="1" pageSize="50" totalNumberOfPages="1" totalNumberOfEntries="1">
+<customerSearchResults xmlns="http://www.travellazy.com/product/model"
+                       page="1"
+                       pageSize="50"
+                       totalNumberOfPages="1"
+                       totalNumberOfEntries="1">
     <customerSearchResult>
         <customerId>1182896512</customerId>
         <customerTitleKey>MR</customerTitleKey>
@@ -7,10 +11,10 @@
         <middleName>G</middleName>
         <accountStatusKey>NEW</accountStatusKey>
         <address>
-            <city>Vienna</city>
-            <zipCode>1030</zipCode>
-            <streetName>Landstrasse</streetName>
-            <countryKey>AT</countryKey>
+            <city>London</city>
+            <zipCode>SE1 3XC</zipCode>
+            <streetName>Great Swinley</streetName>
+            <countryKey>UK</countryKey>
             <streetNumber1>2</streetNumber1>
         </address>
     </customerSearchResult>
